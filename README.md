@@ -24,6 +24,7 @@ Now replace whole method:-
 .end method
 ```
 
+# Next
 - search method:- getScreenCaptureDisabled
 
 Now replace whole method:-
@@ -36,3 +37,60 @@ Now replace whole method:-
     return v0
 .end method
 ```
+
+# Next
+- search method:- SetScreenCaptureDisabled
+
+Now replace whole method:-
+```
+.method private setScreenCaptureDisabled(I)V
+    .registers 6
+
+    return-void
+.end method
+```
+
+# Next
+- search method:- isSecureLocked
+
+Now replace whole method:- isSecureLocked
+```
+.method isSecureLocked()Z
+    .registers 6
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+```
+
+# Next
+- search method:- setSecure
+
+Now replace whole method:-
+```
+.method setSecure(Z)V
+    .registers 14
+
+    return-void
+.end method
+```
+
+
+### Miui User Skip this
+- Now in miui-services.jar
+
+- search method:- notAllowCaptureDisplay
+
+Now replace whole method:-
+```
+    .method public notAllowCaptureDisplay(Lcom/android/server/wm/RootWindowContainer;I)Z
+    .registers 9
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+```
+
+# Done 
