@@ -1,4 +1,6 @@
 # Disable Secure Screenshot Miui/HyperOs
+
+## Important 
 - Ignore window secure flags
 
 - This removes the screenshots and
@@ -8,8 +10,6 @@ with black areas in records. This can be
 convenient in some cases but may lead to
 privacy leaks.
 
-### Instructions
-Need Basic Knowledge To Modify Jar
 
 ### Needed Files
 - [MT Manager](https://t.me/mtmanager) 
