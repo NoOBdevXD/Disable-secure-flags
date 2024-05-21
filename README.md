@@ -1,1 +1,1 @@
-# Mods-Miui-HyperOs
+# Disable Secure Screenshot Miui/HyperOs
