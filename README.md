@@ -1,10 +1,10 @@
 # Disable Secure Screenshot Miui/HyperOs
 
 
-# Instructions
+### Instructions
 Need Basic Knowledge To Modify Jar
 
-# Needed Files
+### Needed Files
 - [MT Manager](https://t.me/mtmanager) 
 
 - services.jar & miui-services.jar
@@ -84,7 +84,7 @@ Now replace whole method:-
 
 Now replace whole method:-
 ```
-    .method public notAllowCaptureDisplay(Lcom/android/server/wm/RootWindowContainer;I)Z
+.method public notAllowCaptureDisplay(Lcom/android/server/wm/RootWindowContainer;I)Z
     .registers 9
 
     const/4 v0, 0x0
@@ -93,4 +93,4 @@ Now replace whole method:-
 .end method
 ```
 
-# Done 
+### Done 
