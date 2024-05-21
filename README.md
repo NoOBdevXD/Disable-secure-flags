@@ -10,3 +10,6 @@ Need Basic Knowledge To Modify Jar
 - services.jar & miui-services.jar
 
 
+
+
+### In services.jar
