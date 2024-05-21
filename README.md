@@ -11,7 +11,7 @@ Need Basic Knowledge To Modify Jar
 
 
 ### In services.jar
--search method:- isScreenCaptureAllowed
+- search method:- isScreenCaptureAllowed
 
 Now replace whole method:-
 ```
@@ -24,7 +24,7 @@ Now replace whole method:-
 .end method
 ```
 
--search method:- getScreenCaptureDisabled
+- search method:- getScreenCaptureDisabled
 
 Now replace whole method:-
 ```
