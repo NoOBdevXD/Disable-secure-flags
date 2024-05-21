@@ -1,6 +1,6 @@
 # Disable Secure Screenshot Miui/HyperOs
 - Ignore window secure flags
-- 
+
 This removes the screenshots and
 screenrecords limits for all applications.
 Normally, special applications are replaced
