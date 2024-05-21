@@ -5,8 +5,8 @@
 Need Basic Knowledge To Modify Jar
 
 ### Needed Files
-MT Manager 
+- [MT Manager](https://t.me/mtmanager) 
 
-services.jar & miui-services.jar
+- services.jar & miui-services.jar
 
 
