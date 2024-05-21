@@ -13,7 +13,7 @@ Need Basic Knowledge To Modify Jar
 ### In services.jar
 search method:- isScreenCaptureAllowed
 
-replace whole method:-
+Now replace whole method:-
 
 .method public isScreenCaptureAllowed(I)Z
 
@@ -24,3 +24,6 @@ replace whole method:-
     return v0
     
 .end method
+
+
+
