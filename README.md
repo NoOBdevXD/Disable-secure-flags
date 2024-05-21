@@ -1,10 +1,10 @@
 # Disable Secure Screenshot Miui/HyperOs
 
 
-### Instructions
+# Instructions
 Need Basic Knowledge To Modify Jar
 
-### Needed Files
+# Needed Files
 - [MT Manager](https://t.me/mtmanager) 
 
 - services.jar & miui-services.jar
@@ -24,7 +24,7 @@ Now replace whole method:-
 .end method
 ```
 
-# Next
+### Next
 - search method:- getScreenCaptureDisabled
 
 Now replace whole method:-
@@ -38,7 +38,7 @@ Now replace whole method:-
 .end method
 ```
 
-# Next
+### Next
 - search method:- SetScreenCaptureDisabled
 
 Now replace whole method:-
@@ -50,7 +50,7 @@ Now replace whole method:-
 .end method
 ```
 
-# Next
+### Next
 - search method:- isSecureLocked
 
 Now replace whole method:- isSecureLocked
@@ -64,7 +64,7 @@ Now replace whole method:- isSecureLocked
 .end method
 ```
 
-# Next
+### Next
 - search method:- setSecure
 
 Now replace whole method:-
@@ -77,7 +77,7 @@ Now replace whole method:-
 ```
 
 
-### Miui User Skip this
+# Miui User Skip this
 - Now in miui-services.jar
 
 - search method:- notAllowCaptureDisplay
