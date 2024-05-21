@@ -42,7 +42,7 @@ Now replace whole method:
 .end method
 ```
 
-### Next
+#### Next
 - search method:- SetScreenCaptureDisabled
 
 Now replace whole method:
@@ -54,7 +54,7 @@ Now replace whole method:
 .end method
 ```
 
-### Next
+#### Next
 - search method:- isSecureLocked
 
 Now replace whole method:
@@ -68,7 +68,7 @@ Now replace whole method:
 .end method
 ```
 
-### Next
+#### Next
 - search method:- setSecure
 
 Now replace whole method:
