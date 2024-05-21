@@ -11,7 +11,7 @@ Need Basic Knowledge To Modify Jar
 
 
 ### In services.jar
-search method:- isScreenCaptureAllowed
+-search method:- isScreenCaptureAllowed
 
 Now replace whole method:-
 ```
@@ -24,5 +24,15 @@ Now replace whole method:-
 .end method
 ```
 
+-search method:- getScreenCaptureDisabled
 
+Now replace whole method:-
+```
+.method public getScreenCaptureDisabled(Landroid/content/ComponentName;IZ)Z
+    .registers 5
 
+    const/4 v0, 0x1
+
+    return v0
+.end method
+```
