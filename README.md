@@ -15,15 +15,13 @@ search method:- isScreenCaptureAllowed
 
 Now replace whole method:-
 
-.method public isScreenCaptureAllowed(I)Z
+# .method public isScreenCaptureAllowed(I)Z
+   # .registers 4
 
-    .registers 4
+   # const/4 v0, 0x1
 
-    const/4 v0, 0x1
-
-    return v0
-    
-.end method
+  #  return v0  
+# .end method
 
 
 
