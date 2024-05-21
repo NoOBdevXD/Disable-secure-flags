@@ -1,4 +1,4 @@
-# Disable Secure flags Miui/HyperOs
+# Disable secure flags Miui/HyperOs
 
 - This removes the screenshots and
 screenrecords limits for all applications.
