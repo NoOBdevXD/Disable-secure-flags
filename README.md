@@ -28,7 +28,7 @@ Now replace whole method:
 .end method
 ```
 
-### Next
+#### Next
 - search method:- getScreenCaptureDisabled
 
 Now replace whole method:
