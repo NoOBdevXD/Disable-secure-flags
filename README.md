@@ -1,5 +1,10 @@
 # Disable Secure Screenshot Miui/HyperOs
-
+This removes the screenshots and
+screenrecords limits for all applications.
+Normally, special applications are replaced
+with black areas in records. This can be
+convenient in some cases but may lead to
+privacy leaks.
 
 ### Instructions
 Need Basic Knowledge To Modify Jar
