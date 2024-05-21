@@ -82,7 +82,8 @@ Now replace whole method:
 
 
 # Miui User Skip this
-- Now in miui-services.jar
+
+### Now in miui-services.jar
 
 - search method:- notAllowCaptureDisplay
 
