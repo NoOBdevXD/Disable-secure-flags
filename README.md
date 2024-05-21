@@ -10,6 +10,15 @@ Need Basic Knowledge To Modify Jar
 - services.jar & miui-services.jar
 
 
-
-
 ### In services.jar
+search method:- isScreenCaptureAllowed
+
+replace whole method:-
+
+.method public isScreenCaptureAllowed(I)Z
+    .registers 4
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
