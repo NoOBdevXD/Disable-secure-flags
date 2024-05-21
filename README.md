@@ -20,7 +20,7 @@ Need Basic Knowledge To Modify Jar
 ### In services.jar
 - search method:- isScreenCaptureAllowed
 
-Now replace whole method:-
+Now replace whole method:
 ```
 .method public isScreenCaptureAllowed(I)Z
    .registers 4
@@ -34,7 +34,7 @@ Now replace whole method:-
 ### Next
 - search method:- getScreenCaptureDisabled
 
-Now replace whole method:-
+Now replace whole method:
 ```
 .method public getScreenCaptureDisabled(Landroid/content/ComponentName;IZ)Z
     .registers 5
@@ -48,7 +48,7 @@ Now replace whole method:-
 ### Next
 - search method:- SetScreenCaptureDisabled
 
-Now replace whole method:-
+Now replace whole method:
 ```
 .method private setScreenCaptureDisabled(I)V
     .registers 6
@@ -60,7 +60,7 @@ Now replace whole method:-
 ### Next
 - search method:- isSecureLocked
 
-Now replace whole method:- isSecureLocked
+Now replace whole method:
 ```
 .method isSecureLocked()Z
     .registers 6
@@ -74,7 +74,7 @@ Now replace whole method:- isSecureLocked
 ### Next
 - search method:- setSecure
 
-Now replace whole method:-
+Now replace whole method:
 ```
 .method setSecure(Z)V
     .registers 14
@@ -89,7 +89,7 @@ Now replace whole method:-
 
 - search method:- notAllowCaptureDisplay
 
-Now replace whole method:-
+Now replace whole method:
 ```
 .method public notAllowCaptureDisplay(Lcom/android/server/wm/RootWindowContainer;I)Z
     .registers 9
